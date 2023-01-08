@@ -87,8 +87,10 @@ var finances = [
   ["Feb-2017", 671099],
 ];
 
+/* Header of the financial Report */
 console.log("Financial Analysis");
 console.log("-------------------");
 
+/* Months Count */
 var months = finances.length;
 console.log("Total Months: " + months);
