@@ -94,3 +94,17 @@ console.log("-------------------");
 /* Months Count */
 var months = finances.length;
 console.log("Total Months: " + months);
+
+/*Biggest Number on the Array */
+const biggestNumber = (arr) => {
+  let biggest = arr.reduce((acc, cur) => (acc > cur ? acc : cur));
+  console.log(biggest);
+};
+biggestNumber(finances);
+
+/*Smallest Number on the Array */
+const smallestNumber = (arr) => {
+  let smallest = arr.reduce((a, b) => (a < b ? a : b));
+  console.log(smallest);
+};
+smallestNumber(finances);
