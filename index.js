@@ -91,20 +91,28 @@ var finances = [
 console.log("Financial Analysis");
 console.log("-------------------");
 
-/* Months Count */
+/* Month Count */
 var months = finances.length;
 console.log("Total Months: " + months);
+
+/* Average of change in Profit/losses */
+sum = 0;
+for (var i = 0; i < finances[0].length; i++) {
+  sum = +finances[0][i];
+  total = sum / finances.length;
+}
+console.log("Average  Change: " + Math.round(total));
 
 /*Biggest Number on the Array */
 const biggestNumber = (arr) => {
   let biggest = arr.reduce((acc, cur) => (acc > cur ? acc : cur));
-  console.log(biggest);
+  console.log("Greatest Increase in Profits: " + biggest);
 };
 biggestNumber(finances);
 
 /*Smallest Number on the Array */
 const smallestNumber = (arr) => {
   let smallest = arr.reduce((a, b) => (a < b ? a : b));
-  console.log(smallest);
+  console.log("Greatest Decrease in Profits: " + smallest);
 };
 smallestNumber(finances);
