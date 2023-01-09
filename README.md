@@ -5,3 +5,8 @@
 3. Average of change in Profit/losses code added.
 4. Added a function to reflect the biggest number of the array.
 5. Added a function to reflect the smallest number of the array.
+
+- GitHub Link of the project: https://github.com/diegodagostim/Console-Finances
+- Deployed link: https://diegodagostim.github.io/Console-Finances/
+
+<img src="screenshot.png">
